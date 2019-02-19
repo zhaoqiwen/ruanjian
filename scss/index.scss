@@ -1,0 +1,127 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.swiper-container{
+	width: 280px;
+	height: 430px;
+	margin-left: 200px;
+	overflow: hidden;
+	position: relative;
+}
+.swiper-wrapper{
+	width: 100%;
+	height: 1000%;
+}
+.swiper-pagination{
+	width: 20px;
+	height: 88px;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto 0;
+	position: absolute;
+}
+.my-bullet{
+	list-style: none;
+	width: 6px;
+	height: 6px;
+	background: #f9f9f9;
+	border-radius: 50%;
+	margin-bottom: 5px;
+	margin-left: 7px;
+}
+.my-bullet-active{
+	border: 1px solid #fff;
+	box-sizing: border-box;
+	background: none;
+}
+.swiper-slide{
+	width: 280px;
+	height: 430px;
+	position: relative;
+}
+.swiper-slide>img:nth-child(1){
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.swiper-slide>img:nth-child(2){
+	width: 270px;
+	height: 420px;
+	left: 6px;
+	top: 6px;
+	position: absolute;
+	// display: none;
+	transform: rotate(0deg);
+	transition: all 0.5s;
+}
+.swiper-slide>img:nth-child(3){
+	width: 240px;
+	height: 390px;
+	left: 23px;
+	top: 29px;
+	position: absolute;
+	display: none;
+}
+.swiper-slide>img:nth-child(4){
+	width: 215px;
+	height: 360px;
+	left: 30px;
+	top: 36px;
+	position: absolute;
+	display: none;
+}
+.swiper-slide .text1{
+	width: 215px;
+	height: 16px;
+	font-size: 12px;
+	color:rgb(255, 199, 134);
+	top: 48px;
+	left: 30px;
+	position: absolute;
+	text-align: center;
+	line-height: 16px;
+	letter-spacing:1px;
+	display: none;
+}
+.swiper-slide .text2{
+	width: 110px;
+	height: 72px;
+	top: 95px;
+	left: 50px;
+	position: absolute;
+	color: rgb(255, 199, 134); 
+	font-size: 14px;
+	text-align: center;
+	line-height: 22px;
+	letter-spacing:3px;
+	display: none;
+}
+.swiper-slide .text3{
+	width: 25px;
+	height: 158px;
+	left:91px;
+	top: 138px;
+	position: absolute;
+	display: none;
+}
+.swiper-slide .text3>img{
+	width: 100%;
+	height: 100%;
+}
+.swiper-slide .text3>span{
+	display: block;
+	width: 18px;
+	height: 110px;
+	left: 3.5px;
+	top: 23px;
+	position: absolute;
+	color: rgb(255, 199, 134); 
+	font-size: 14px;
+	text-align: center;
+	line-height: 22px;
+}
